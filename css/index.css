@@ -121,16 +121,17 @@ header {
 	display: flex;
 	justify-content: space-between;
 	width: 48%;
-	Margin-right: 24%;
+	Margin-right: 24.5%;
 }
 .container header .top-nav-2 .nav-text a.bigger {
 	font-size: 1.5rem;
 }
 .container header .top-nav-2 button {
-	margin-right: 9%;
+	margin-right: 8%;
 	border: 1px solid white;
 	color: black;
 	background-color: white;
 	font-weight: bold;
+	height: 25px;
 }
 
