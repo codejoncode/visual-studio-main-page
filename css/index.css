@@ -76,11 +76,13 @@ header {
 	display: flex;
 	margin-left: 9%;
 	margin-right: 9%;
-	height: 30px;
+	margin-top: 10px;
+	height: 40px;
 	width: 95%;
 	justify-content: space-between;
 	margin-bottom: 10px;  
-	align-content: flex-end;
+	align-items: center;
+	
 
 	/* keeping this here for now to see what is going on.  */
 }
@@ -88,6 +90,8 @@ header {
 	width: 65%;
 	justify-content: space-between;
 	display:flex;
+	height: 30px;
+	align-items: center;
 	
 }
 .container header .top-nav a {
@@ -104,6 +108,9 @@ header {
 	background-color: #0067b8;
 	color: white;
 	display: flex;
+	height: 40px;
+	align-items: center;
+	
 }
 .container header .top-nav-2 a {
 	color: white;
@@ -111,5 +118,19 @@ header {
 }
 .container header .top-nav-2 .nav-text {
 	margin-left: 9%; 
+	display: flex;
+	justify-content: space-between;
+	width: 48%;
+	Margin-right: 24%;
+}
+.container header .top-nav-2 .nav-text a.bigger {
+	font-size: 1.5rem;
+}
+.container header .top-nav-2 button {
+	margin-right: 9%;
+	border: 1px solid white;
+	color: black;
+	background-color: white;
+	font-weight: bold;
 }
 
