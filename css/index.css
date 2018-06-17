@@ -134,4 +134,54 @@ header {
 	font-weight: bold;
 	height: 25px;
 }
+.down-arrow::after {
+	content: "\2304";
+}
+.container-2 {
+	background-color: #865fc5;
+	display: flex;
+	flex-direction: column;
+	Justify-content: center;
+	align-items: center;
+}
+.container-2 img {
+	max-width: 800px;
+}
+.container-2 p.middle-size {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin-bottom: 35px;
+}
+.container-2 p.biggest {
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 8px;
+	margin-top: 80px;
+}
+.container-2 .download-section {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid red;
+	width: 800px;
+	height: 80px;
+	align-items: center;
+}
+.container-2 .download-section p {
+	color: white;
+}
+.container-2 .download-section button.download {
+	height: 40px;
+	width: 150px;
+	background-color: white;
+}
+.container-2 .download-section button.watch-video {
+	height: 40px;
+	width: 150px;
+	background-color: #865fc5;
+	color: white; 
+	border: 1px solid white;
+}
+
+
 
