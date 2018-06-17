@@ -54,3 +54,53 @@ table {
 * {
     box-sizing: border-box;
 }
+.container {
+	max-width: 2000px;
+	width: 100%;
+}
+header {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.container header .top-nav img {
+	/* max-width: 216px;
+	width: 100%;
+	height: auto; */
+	max-width: 108px;
+	
+	border: 3px solid black;
+	height: auto;
+} 
+.container header .top-nav {
+	display: flex;
+	border: 1px solid red;
+	margin-left: 9%;
+	margin-right: 9%;
+	height: 30px;
+	width: 95%;
+	margin-bottom: 100px;  
+	/* keeping this here for now to see what is going on.  */
+}
+.container header .top-nav .nav-options {
+	border: 1px solid blue;
+	width: 65%;
+	justify-content: space-between;
+	display:flex;
+	
+}
+.container header .top-nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.container header .top-nav-2 {
+	width: 100%;
+	background-color: #0067b8;
+	color: white;
+}
+.container header .top-nav-2 a {
+	color: white;
+	text-decoration: none;
+}
+
